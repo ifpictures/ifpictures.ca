@@ -161,194 +161,151 @@
 	<!-- /Header -->
 
 	<!-- Main Content -->
-	<main id="main" class="bg-lines">
-
-		<!-- Hero -->
-		<section class="hero hero-fullscreen" data-background="#000">
-
-			<!-- Slider -->
-			<div class="swiper" data-pagination="true">
-
-				<!-- Slide Item -->
-				<figure class="swiper-slide" 
-				        data-background="img/gallery/108.jpg"
-				        data-overlay="black; 0.6">
-					<figcaption class="caption text-light">
-						<div class="caption-inner">
-							<h3><a href="#">Martian Child</a></h3>
-							<p class="text-links small serif">
-								<a href="#">Design</a>
-								<a href="#">Art</a>
-							</p>
-						</div>
-					</figcaption>
-				</figure>
-				<!-- /Slide Item -->
-
-				<!-- Slide Item -->
-				<figure class="swiper-slide">
-					
-					<!-- Video Background -->
-					<div class="video-background" 
-					     data-src="https://vimeo.com/115041822" 
-					     data-poster="img/gallery/109.jpg" 
-					     data-controls="true" 
-					     data-autoplay="true" 
-					     data-loop="true"
-					     data-volume="3"> 	
-				     </div>
-				     <!-- /Video Background -->
-
-					<figcaption class="caption text-light">
-						<div class="caption-inner">
-							<h3><a href="#">Swept Away</a></h3>
-							<p class="text-links small serif">
-								<a href="#">Design</a>
-								<a href="#">Art</a>
-							</p>
-						</div>
-					</figcaption>
-				</figure>
-				<!-- /Slide Item -->
-
-				<!-- Slide Item -->
-				<figure class="swiper-slide" 
-				        data-background="img/gallery/107.jpg"
-				        data-overlay="black; 0.4">
-
-					<figcaption class="caption text-light">
-						<div class="caption-inner">
-							<h3><a href="#">New Sol, New Hope</a></h3>
-							<p class="text-links small serif">
-								<a href="#">Design</a>
-								<a href="#">Art</a>
-							</p>
-						</div>
-					</figcaption>
-				</figure>
-				<!-- /Slide Item -->
-
-			</div>
-			<!-- /Slider -->
-
-		</section>
-		<!-- /Hero -->
-
-		<!-- Scroll Down Line -->
-		<a href="#" class="scroll-down"><span></span></a>
-
-		<!-- About -->
-		<section class="py-lg-13 py-8">
-			<div class="container d-flex justify-content-center text-lg-center">
-				<div class="col-lg-8">
-					<p class="small uppercase bold mb-4" data-animation="fade-in-bottom 1000ms 300ms">Hello There.</p>
-					<h2 class="bold" data-animation="fade-in-bottom 1300ms 500ms">We're just two lost Souls swimming in a Fish Bowl & Winning Design Awards</h2>
-					<p class="small serif mt-5" data-animation="fade-in-bottom 1500ms 400ms">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit, et, praesentium?<br> Odit perferendis error natus cum, laudantium ea!</p>
-				</div>
-			</div>
-		</section>
-		<!-- /About -->
-
-		<!-- Portfolio Section -->
-		<section>
-			<div class="container px-0">
-
-				<!-- Portfolio Item -->
-				<figure class="parallax-folio-item">
-
-					<div class="item-media background-parallax" data-background="img/folio/1.jpg"></div>
-
-					<figcaption>
-						<div class="item-caption-inner">
-							<p class="text-links">
-								<a href="#">Design</a>
-								<a href="#">Art</a>
-							</p>
-							<h3 class="bold uppercase">Infinite black skies</h3>
-							<a href="#" class="button style-3 border-2">View Project</a>
-						</div>
-					</figcaption>
-
-				</figure>
-				<!-- /Portfolio Item -->
-				
-				<!-- Portfolio Item -->
-				<figure class="parallax-folio-item tall">
-
-					<div class="item-media background-parallax" data-background="img/folio/5.jpg"></div>
-
-					<figcaption>
-						<div class="item-caption-inner">
-							<p class="text-links">
-								<a href="#">Design</a>
-								<a href="#">Art</a>
-							</p>
-							<h3 class="bold uppercase">We will stand tall</h3>
-							<a href="#" class="button style-3 border-2">View Project</a>
-						</div>
-					</figcaption>
-
-				</figure>
-				<!-- /Portfolio Item -->
-
-				<!-- Portfolio Item -->
-				<figure class="parallax-folio-item tall">
-
-					<div class="item-media background-parallax" data-background="img/folio/2.jpg"></div>
-
-					<figcaption>
-						<div class="item-caption-inner">
-							<p class="text-links">
-								<a href="#">Design</a>
-								<a href="#">Art</a>
-							</p>
-							<h3 class="bold uppercase">Feel the earth move</h3>
-							<a href="#" class="button style-3 border-2">View Project</a>
-						</div>
-					</figcaption>
-
-				</figure>
-				<!-- /Portfolio Item -->
-
-				<!-- Portfolio Item -->
-				<figure class="parallax-folio-item">
-
-					<div class="item-media background-parallax" data-background="img/folio/3.jpg"></div>
-
-					<figcaption>
-						<div class="item-caption-inner">
-							<p class="text-links">
-								<a href="#">Design</a>
-								<a href="#">Art</a>
-							</p>
-							<h3 class="bold uppercase">Where worlds collide</h3>
-							<a href="#" class="button style-3 border-2">View Project</a>
-						</div>
-					</figcaption>
-
-				</figure>
-				<!-- /Portfolio Item -->
-
-			</div>
-		</section>
-		<!-- /Portfolio Section -->
+	<main id="main">
 		
-		<!-- CTA -->
-		<section class="cta">
-			<div class="container py-sm-12 py-8">
+		<!-- Horizontal Slider -->
+		<div class="swiper hero-fullscreen lightbox" 
+		     data-slides-per-view="auto"
+		     data-mousewheel="true"
+		     data-keyboard="true">
 
-				<div class="row align-items-center p-5">
-					<div class="col-md">
-						<h2 data-animation="fade-in-bottom 800ms 200ms" class="m-0">Let's work together</h2>
-					</div>
-					<div class="col-auto">
-						<a data-animation="fade-in-bottom 500ms 500ms" href="#" class="button style-7 mb-0">Contact Us</a>
-					</div>
-				</div>
+		     <!-- Slide Item -->
+			<figure class="swiper-slide portfolio-item vw-50" data-background="img/folio/1.jpg">
+				<a href="img/folio/1.jpg" class="lightbox-link" title="Infinite black skies"></a>
+				<figcaption>
+					<h5 class="item-title">
+						<a href="#">Infinite black skies</a>
+					</h5>
+					<p class="text-links">
+						<a href="#">Design</a>
+						<a href="#">Art</a>
+					</p>
+				</figcaption>
+			</figure>
+			<!-- /Slide Item -->
 
-			</div>
-		</section>
-		<!-- /CTA -->
+			<!-- Slide Item -->
+			<figure class="swiper-slide portfolio-item vw-25" data-background="img/folio/2.jpg">
+				<a href="img/folio/2.jpg" class="lightbox-link" title="Feel the earth move"></a>
+				<figcaption>
+					<h5 class="item-title">
+						<a href="#">Feel the earth move</a>
+					</h5>
+					<p class="text-links">
+						<a href="#">Design</a>
+						<a href="#">Art</a>
+					</p>
+				</figcaption>				
+			</figure>
+			<!-- /Slide Item -->
+
+			<!-- Slide Item -->
+			<figure class="swiper-slide portfolio-item vw-25" data-background="img/folio/3.jpg">
+				<a href="img/folio/3.jpg" class="lightbox-link" title="Where worlds collide"></a>
+				<figcaption>
+					<h5 class="item-title">
+						<a href="#">Where worlds collide</a>
+					</h5>
+					<p class="text-links">
+						<a href="#">Design</a>
+						<a href="#">Art</a>
+					</p>
+				</figcaption>				
+			</figure>
+			<!-- /Slide Item -->
+
+			<!-- Slide Item -->
+			<figure class="swiper-slide portfolio-item vw-50" data-background="img/folio/4.jpg">
+				<a href="img/folio/4.jpg" class="lightbox-link" title="Where days are dark"></a>
+				<figcaption>
+					<h5 class="item-title">
+						<a href="#">Where days are dark</a>
+					</h5>
+					<p class="text-links">
+						<a href="#">Design</a>
+						<a href="#">Art</a>
+					</p>
+				</figcaption>				
+			</figure>
+			<!-- /Slide Item -->
+
+			<!-- Slide Item -->
+			<figure class="swiper-slide portfolio-item vw-50" data-background="img/folio/5.jpg">
+				<a href="img/folio/5.jpg" class="lightbox-link" title="We will stand tall"></a>
+				<figcaption>
+					<h5 class="item-title">
+						<a href="#">We will stand tall</a>
+					</h5>
+					<p class="text-links">
+						<a href="#">Design</a>
+						<a href="#">Art</a>
+					</p>
+				</figcaption>				
+			</figure>
+			<!-- /Slide Item -->
+
+			<!-- Slide Item -->
+			<figure class="swiper-slide portfolio-item vw-60" data-background="img/folio/9.jpg">
+				<a href="img/folio/9.jpg" class="lightbox-link" title="Hear my heart burst again"></a>
+				<figcaption>
+					<h5 class="item-title">
+						<a href="#">Hear my heart burst again</a>
+					</h5>
+					<p class="text-links">
+						<a href="#">Design</a>
+						<a href="#">Art</a>
+					</p>
+				</figcaption>				
+			</figure>
+			<!-- /Slide Item -->
+
+			<!-- Slide Item -->
+			<figure class="swiper-slide portfolio-item vw-40" data-background="img/folio/7.jpg">
+				<a href="img/folio/7.jpg" class="lightbox-link" title="In your head they are fighting"></a>
+				<figcaption>
+					<h5 class="item-title">
+						<a href="#">In your head they are fighting</a>
+					</h5>
+					<p class="text-links">
+						<a href="#">Design</a>
+						<a href="#">Art</a>
+					</p>
+				</figcaption>				
+			</figure>
+			<!-- /Slide Item -->
+
+			<!-- Slide Item -->
+			<figure class="swiper-slide portfolio-item vw-25" data-background="img/folio/6.jpg">
+				<a href="img/folio/6.jpg" class="lightbox-link" title="Let the sky fall"></a>
+				<figcaption>
+					<h5 class="item-title">
+						<a href="#">Let the sky fall</a>
+					</h5>
+					<p class="text-links">
+						<a href="#">Design</a>
+						<a href="#">Art</a>
+					</p>
+				</figcaption>				
+			</figure>
+			<!-- /Slide Item -->
+
+			<!-- Slide Item -->
+			<figure class="swiper-slide portfolio-item vw-35" data-background="img/folio/8.jpg">
+				<a href="img/folio/8.jpg" class="lightbox-link" title="When it crumbles"></a>
+				<figcaption>
+					<h5 class="item-title">
+						<a href="#">When it crumbles</a>
+					</h5>
+					<p class="text-links">
+						<a href="#">Design</a>
+						<a href="#">Art</a>
+					</p>
+				</figcaption>				
+			</figure>
+			<!-- /Slide Item -->
+
+		</div>
+		<!-- /Horizontal Slider -->
 
 	</main>
 	<!-- /Main Content -->
